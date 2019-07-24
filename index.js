@@ -13,7 +13,6 @@ class Circle {
     }
 
     get circumference() {
-        debugger
         const result = Math.PI * this.diameter
         return Math.floor(result * 100) /100
     }
